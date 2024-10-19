@@ -1,12 +1,18 @@
 {
   "name": "is-six-hundred-and-seventy-five",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Checks if a number is 675",
+  "author": "Hassunaama",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hassunaama/is-six-hundred-and-seventy-five.git"
+  },
+
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
-  "author": "Hassunaama",
-  "license": "MIT",
+
   "scripts": {
     "build": "tsc"
   },
