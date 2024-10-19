@@ -2,6 +2,10 @@
 
 A npm package that checks if a number is 675.
 
+```bash
+npm i is-six-hundred-and-seventy-five
+```
+
 ## Examples
 ```ts
 import { isSixHundredAndSeventyFive } from 'is-six-hundred-and-seventy-five';
