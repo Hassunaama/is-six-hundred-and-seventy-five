@@ -1,15 +1,21 @@
 # is-six-hundred-and-seventy-five
 
-To install dependencies:
+A npm package that checks if a number is 675.
 
-```bash
-bun install
+## Examples
+```ts
+import { isSixHundredAndSeventyFive } from 'is-six-hundred-and-seventy-five';
+
+const number1 = 583;
+const number2 = 675;
+
+console.log(isSixHundredAndSeventyFive(number1)); // this logs false
+console.log(isSixHundredAndSeventyFive(number2)); // this logs true
+
+if (isSixHundredAndSeventyFive(number2)) {
+    console.log("The number is 675!")
+}
 ```
 
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.1.20. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+## License
+This is licensed under the MIT license. See LICENSE.md.
