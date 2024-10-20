@@ -1,4 +1,6 @@
 # is-six-hundred-and-seventy-five
+![NPM Version](https://img.shields.io/npm/v/is-six-hundred-and-seventy-five) ![NPM Downloads](https://img.shields.io/npm/dy/is-six-hundred-and-seventy-five)
+
 
 A npm package that checks if a number is 675.
 
