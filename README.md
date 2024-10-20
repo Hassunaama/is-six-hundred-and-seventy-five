@@ -17,8 +17,13 @@ const number2 = 675;
 
 console.log(isSixHundredAndSeventyFive(number1)); // this logs false
 console.log(isSixHundredAndSeventyFive(number2)); // this logs true
+console.log(isSixHundredAndSeventyFive("six hundred and seventy five")); // this logs true
 
 if (isSixHundredAndSeventyFive(number2)) {
+    console.log("The number is 675!")
+}
+
+if (isSixHundredAndSeventyFive("six hundred and seventy five")) {
     console.log("The number is 675!")
 }
 ```
